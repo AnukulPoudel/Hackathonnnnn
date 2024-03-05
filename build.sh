@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# exit on error
+# Exit on error
 set -o errexit
 
-# change this line for whichever package you use, such as pip, or poetry, etc.
+# Modify this line as needed for your package manager (pip, poetry, etc.)
 pip install -r requirements.txt
