@@ -13,7 +13,7 @@ def predict(general_cap_classification, summary):
 
     # if any is empty, return "low"
     if general_cap_classification == '' or summary == '':
-        print('low')
+        return 'low'
 
     def cleanAndTokenizeText(txt):
         # Remove "According to the complainant,"
