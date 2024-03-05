@@ -4,4 +4,4 @@ services:
     name: project_django
     runtime: python
     buildCommand: "./build.sh"
-    startCommand: "python -m gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker"
+    startCommand: "python -m gunicorn project_django.asgi:application -k uvicorn.workers.UvicornWorker"
